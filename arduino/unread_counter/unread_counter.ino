@@ -29,9 +29,6 @@ char inValue = 0;
 int pr = 0;
 
 void loop() {
-  
-  
-  
   if (Serial.available() > 0) {
     inValue = Serial.read() - '0';
     Serial.print("I received: ");
